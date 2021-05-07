@@ -1,6 +1,8 @@
 body{
-    background: grey;
+    background: white;
     opacity: 92%;
+    max-width:900px;
+    margin:auto;
 }
 
 #title, .subtitle, .post_title {
@@ -26,10 +28,21 @@ body{
     border: thin solid;
     border-radius:50%;
     padding: 10px;
-    margin: 50px 100px 50px 500px;
+    margin: auto;
+    background-color:white;
 }
 
-a{
-    color:chartreuse;
+.imagem2{
+    width:100%;
+    margin:auto;
+}
+
+.contacts_list li a{
+    color:blue;
     font-size: 20px;
+}
+
+.contacts_list{
+    list-style-type:none;
+    padding-left:15px;
 }
