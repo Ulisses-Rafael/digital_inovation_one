@@ -6,3 +6,11 @@ console.log(nome);
 console.log(idade);
 //console.log(frase.replace("japão","Brasil"));
 console.log(frase.toLocaleUpperCase());
+
+function clicou(){
+   alert("obrigado por clicar");
+}
+
+function trocar(){
+    window.open("https://ciberindustria.com.br");
+}
